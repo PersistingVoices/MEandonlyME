@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Shriram Sunder</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <link href="https://fonts.googleapis.com/css?family=Sorts+Mill+Goudy" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Old+Standard+TT" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" media="screen" href="css/part-style.css">
+        <link rel="stylesheet" media="screen" href="css/fakeLoader.css">
+        
+    </head>
+    <body>
+        
+        <div id="fakeloader"></div>
+        
+        <div class="aa_sec">
+            <div class="aa_txt">
+                <div class="btn-large icon">
+                    <a href="index-over.html">
+                        <img src="amp.jpg" alt="amp" style="width=60px;height=80;">
+                    </a>
+                </div>
+                <div id="spacer"></div>
+                <div id="projects" class="btn proj">
+                    <a href="index-over.html">
+                        <h4>Back</h4>
+                    </a>
+                </div>
+                                    
+                <hr class="hr style-two">
+                
+                <div class="m-card small">
+                    <div id="para1" class="m-container" style="padding-top:5vh">
+                        <p>I am a recent Mechanical Engineering graduate from the University of Southampton  and   trained in scientific computational techniques alongside my major in 'Advanced Materials'. </p>
+                    </div>
+                    <div id="para2" class="m-container" style="padding-top:5vh">
+                        <p>My most recent project involved developing closed and open-loop control systems, their UI's, and integrated them with optimisation algorithms.</p>
+                    </div>
+                    <div id="para3" class="m-container" style="padding-top:5vh">
+                        <p>I am quite proficient in LabView, Python and C and also have experience with MatLab and SolidWorks. I also enjoy some web-designing if time permits.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="particles-js"></div>
+        
+        
+
+        <script src="../particles.js"></script>
+        <script src="js/app.js"></script>
+        <script src="js/fakeLoader.min.js"></script>
+        
+        <script src="../velocity.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/VelocityJS/1.2.2/VelocityJS.ui.js"></script>
+        
+        <!--<script src="js/background-mod.js"></script>-->
+        <script src="http://code.jquery.com/jquery-2.1.3.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jqueryui/2.1.3/jquery-ui.min.js"></script>
+        
+        <script type="text/javascript">
+            $("#fakeloader").fakeLoader({
+                timeToHide: 1200,        //Time in milliseconds for fakeLoader disappear
+                zIndex: "999",             //Default zIndex
+                spinner: "spinner1",     //Options: 'spinner1', 'spinner2', 'spinner3', 'spinner4', 'spinner5', 'spinner6', 'spinner7'
+                bgColor: "#2ecc71",      //Hex, RGB or RGBA colors
+            });
+            
+            $("#projects").on('click', function(){
+               $(this).animate({width: '100vh';});
+            });
+        </script>
+    </body>
+</html>

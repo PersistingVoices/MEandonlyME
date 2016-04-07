@@ -1,0 +1,80 @@
+@import url("../demo/css/materialize.css")
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:800);
+@import url(http://fonts.googleapis.com/css?family=Alegreya+SC:400,700,900);
+
+body {
+  background: #c41753;
+  color: #323232;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  overflow: hidden;
+}
+
+.m-section {
+		  z-index: 5;
+	      height: calc(100% + 100px);
+	      overflow: auto;
+	      padding-top: 1rem;
+	      padding-bottom: 1rem;
+	      margin-left: 0;
+	      margin-right: 0;                                                      
+		  overflow-y: auto; 
+		  box-shadow: none;
+		  margin-bottom: 0px;
+		 }
+
+.m-container {
+    position: relative; 
+    font: 100 110% Old Standard TT;	
+/*	left: 10vh;*/
+	width: 50%;
+	box-sizing: relative;
+	justify-content: center;
+	background-color: #FFFFFF;
+}
+
+h1 {
+  width: 600px;
+  margin: 100px auto;
+  -moz-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  text-shadow: 3px 3px 0px rgba(196, 23, 83, 0.1);
+  -moz-transition: text-shadow 20ms;
+  -o-transition: text-shadow 20ms;
+  -webkit-transition: text-shadow 20ms;
+  transition: text-shadow 20ms;
+  -webkit-text-stroke: 1px rgba(242, 242, 242, 0.5);
+}
+
+h1 .top, h1 .bottom {
+  font-family: 'Alegreya SC';
+}
+
+h1 .top {
+  font-weight: 400;
+  font-size: 46px;
+}
+
+h1 .bottom {
+  font-size: 52px;
+  font-weight: 700;
+}
+
+h1 .bottom .us {
+  font-weight: 900;
+}
+
+h1 .shadow {
+  font-size: 130px;
+  font-family: 'Open Sans';
+  line-height: 80px;
+}
+
+h1 .white {
+  color: white;
+}
